@@ -1,0 +1,25 @@
+.task-block {
+    background-color: white;
+    border-radius: 5%;
+    width: 100%;
+    max-height: 250px;
+}
+
+.task-header {
+    padding: 1em 1em 0.5em 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 65px;
+}
+
+.float-right {
+    float: right;
+}
+
+ul li span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}

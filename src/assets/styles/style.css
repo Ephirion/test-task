@@ -1,0 +1,86 @@
+body {
+    background-color: #e3f2fd;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    list-style-type: none;
+}
+
+.action-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hover-blue:hover {
+    color: blue;
+}
+
+.hover-red:hover {
+    color: red;
+}
+
+hr {
+    margin: 0 1em;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.btn-submit {
+    background-color: #1976d2;
+}
+
+.btn-submit:hover {
+    background-color: #bbdefb;
+}
+
+.btn-cancel {
+    background-color: #ff1744;
+}
+
+.btn-cancel:hover {
+    background-color: #ff5252;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
